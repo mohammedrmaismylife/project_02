@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 01: Positioning</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positioning</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="navbar">
-        Navigation Bar
-    </div>
 
-    <br><br><br><br>
+  <nav class="navbar">
+    <h2>Navigation Bar</h2>
+  </nav>
 
-    <div class="card">
-        <h2>My Card</h2>
-        <p>This is a simple text inside the card.</p>
+  <div class="card">
+    <span class="badge">NEW</span>
+    <h3>My Card</h3>
+    <p>Because the card uses <code>position: relative</code>, the badge's top and right values are measured from this card's boundaries, not the body element.</p>
+  </div>
 
-        <span class="badge">New</span>
-    </div>
-
-    <button class="back-to-top">Top</button>
-
+  <a href="#" class="back-to-top">↑ Top</a>
 
 </body>
-
 </html>
